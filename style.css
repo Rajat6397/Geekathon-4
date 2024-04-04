@@ -1,7 +1,16 @@
+body{
+    background-color: aliceblue;
+}
 input[type="text"] {
     padding: 5px;
     width: 200px;
     margin-right: 5px;
+    border-radius: 7px;
+}
+.container{
+    height:70px;
+    padding:5px;
+    /* background-color: #007bff; */
 }
 
 button {

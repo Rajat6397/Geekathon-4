@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="searchInput" placeholder="Search...">
-    <button onclick="search()">Google</button>
-    <button onclick="explore()">Wikipedia</button>
+    <div class="container">
+    <input type="text" id="searchInput" placeholder="Search..."><br>
+    <button  onclick="search()">Google</button>
+    <button onclick="wikipedia()">Wikipedia</button>
     <button onclick="find()">Gemini</button>
-
+    </div>
+    <div class="results"></div>
     <script src="script.js"></script>
 </body>
 </html>
