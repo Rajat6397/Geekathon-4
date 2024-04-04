@@ -8,11 +8,13 @@ body{
     color:#007bff;
 }
 input[type="text"] {
-    padding: 5px;
-    width: 200px;
+    padding: 15px;
+    width: 700px;
     margin-right: 5px;
-    border-radius: 7px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 13px hsl(0, 100%, 100%);
 }
+
 .container{
     margin-bottom: 60px;
     height:70px;
@@ -23,12 +25,25 @@ input[type="text"] {
 }
 
 button {
-    padding: 5px 10px;
-    background-color: #007bff;
+    margin-top: 20px;
+    padding: 10px;
+    background:linear-gradient(to right, grey, orange);
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
+}
+.buttonstore{
+    display: flex;
+    justify-content: space-around;
 }
 .results{
-    background-color: #fff;
+    margin-top: 100px;
+    border-color: #d3d3;
+    align-items: center;
+    margin-left:5px;
+    margin-right: 5px;
+    background-color:azure;
+   
+    
 }
