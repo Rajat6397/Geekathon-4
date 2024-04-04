@@ -1,15 +1,19 @@
 body{
-    background-image: url("wallpaper.png");
+    background-image: url("background3.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+   /* height:100%;
+   width:100%; */
+   background-size: cover;
+
    
 }
 .container h1{
-    color:#007bff;
+    color:orange;
+    /* color:#007bff; */
 }
 input[type="text"] {
     padding: 15px;
-    width: 700px;
+    width: 80%;
     margin-right: 5px;
     border-radius: 30px;
     box-shadow: 1px 2px 13px hsl(0, 100%, 100%);
@@ -26,9 +30,9 @@ input[type="text"] {
 
 button {
     margin-top: 20px;
-    padding: 10px;
-    background:linear-gradient(to right, grey, orange);
-    color: #fff;
+    padding: 15px;
+    background:linear-gradient(to right, grey, light green);
+    color: #000000;
     border: none;
     cursor: pointer;
     border-radius: 30px;
@@ -38,12 +42,15 @@ button {
     justify-content: space-around;
 }
 .results{
-    margin-top: 100px;
+    margin: 110px 10px 0px 10px;
+    padding-left:50px;
     border-color: #d3d3;
     align-items: center;
-    margin-left:5px;
-    margin-right: 5px;
+    
     background-color:azure;
    
     
+}
+a{
+    text-decoration: none;
 }
